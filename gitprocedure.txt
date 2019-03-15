@@ -22,3 +22,10 @@ git push -u origin master
 ######################**Useful Commands**###############################
 git branch
 git remote
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
