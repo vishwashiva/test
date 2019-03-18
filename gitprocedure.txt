@@ -29,3 +29,7 @@ But if you want to remove the file only from the Git repository and not remove i
 
 git rm --cached file1.txt
 git commit -m "remove file1.txt"
+
+
+###################**Can see Full configuration**########################
+git config --list
